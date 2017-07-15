@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:id="@+id/resultTextView"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:background="@drawable/textbackground"
+            android:textStyle="bold"
+            android:gravity="center"
+
+
+            />
+
+        <Button
+            android:id="@+id/buttonListen"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_gravity="center"
+            android:text="Click and Say Hi"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="280dp"
+            android:layout_height="49dp"
+            android:layout_below="@+id/resultTextView"
+
+            android:onClick="buttonListenOnClick"
+            android:background="@drawable/buttonshape"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
