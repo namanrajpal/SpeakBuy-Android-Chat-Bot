@@ -31,9 +31,9 @@ public class AWSECommerceClient {
 
 
     /** Use this to specify the AWS Access Key ID */
-    public static String AWSAccessKeyId = "AKIAISDJKOYI35342QPQ";
+    public static String AWSAccessKeyId = "<Your_Key>";
     /** Use this to specify the AWS Secret Key */
-    public static String AWSSecureKeyId = "Uwua1lMk+4jtWJePEQd73P4iBxuS7vY7Lbbi89fQ";
+    public static String AWSSecureKeyId = "<Your_Secure_ID>";
 
     /** Namespace for all AWS Security elements */
     public static final String AuthHeaderNS = "http://security.amazonaws.com/doc/2007-01-01/";
